@@ -21,8 +21,8 @@
           p Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
           p En relación con la cultura, esta se puede entender como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
-      .col-lg-6
-        SlyderCTitulo.mb-5(:datos="datosSlyder")
+      .col-lg-6.fondo-a.p-4
+        SlyderCTitulo(:datos="datosSlyder")
     
     
     Separador
@@ -31,16 +31,22 @@
     
     p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede observar en el siguiente esquema:
 
-    .row.mb-4
-      .col-2
-      .col-8
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9
         figure
-          .titulo-quinto.color-acento-contenido(data-aos='fade-right')
-            h4 Figura 4. 
-              p Sistema de la moda en el mundo
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4. 
+            span Sistema de la moda en el mundo
           img(src='@/assets/curso/tema1/img04.svg', alt='Texto alternativo figura 4: el esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
           figcaption Nota. Tomada de Inexmoda (2021).
-      .col-2
+      .col-3
+        p El esquema es una pirámide que describe en niveles lo siguiente: 
+        p comenzando desde la base
+        p #[b 1. Masivo:] pronta moda, toma de las marcas de lujo el #[em merchandising, Massterprestige] (colaboraciones).
+        p #[b 2. Mercado medio:] marcas diferenciadas, aspiran ser difusión
+        p #[b 3. Mercado alto:] Listo para usar, nuevas marcas de las casas de lujo.
+        p #[b Lujo o exclusivo:] alta costura, diseñadores
+
     .p-4
     p A partir de la anterior imagen se puede constatar lo siguiente:
     h2 Gamas de mercado en el sistema moda
@@ -103,9 +109,10 @@
               img(src='@/assets/curso/tema1/img09.png', alt='la imagen diagrama el proceso de la moda circular: selecciona, mejora, empaca, entrega y recicla.')
               figcaption Nota. Tomada de Sayonara (2021)
     br
-    .row-p-4
-      .cajon.color-primario.fondo-a.mb-5.p-4
-        p Actualmente esta línea ha hecho impulsar fenómenos como el #[em Slow Fashion] en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .cajon.color-primario.fondo-a.mb-5.p-4
+          p.text-center Actualmente esta línea ha hecho impulsar fenómenos como el #[em Slow Fashion] en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
 
     Separador
     #t_1_3.titulo-segundo
@@ -399,7 +406,7 @@
               .col 
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small Enlace web.  Video – Cliente
+                    p.text-small #[b Enlace web.  Video – Cliente]
                     .text-small Conoce la definición del cliente y su importancia en un negocio.
                   .col-sm-auto
                     a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=4WIq433jNMA')" target="_blank")
@@ -414,7 +421,7 @@
               .col 
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small Enlace web.  Video – Tipos de clientes
+                    p.text-small #[b Enlace web.  Video – Tipos de clientes]
                     .text-small Conoce los tipos de clientes basados en su comportamiento al momento de adquirir un producto.
                   .col-sm-auto
                     a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=FxVNkf957tw&t=26s')" target="_blank")
@@ -429,7 +436,7 @@
               .col 
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small Enlace web.  Video – Servicio al cliente
+                    p.text-small #[b Enlace web.  Video – Servicio al cliente]
                     .text-small Conoce el comportamiento de los clientes que adquieren un producto o servicio de manera frecuente u ocasional.
                   .col-sm-auto
                     a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=dB6FOVF-wWs')" target="_blank")
@@ -453,6 +460,8 @@ export default {
         figura: 'Figura 1. ',
         titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
+        alt:
+          ' la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.',
         leyendaImagen: 'Nota. Tomada de PlayBoya (2020)',
       },
       {

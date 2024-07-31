@@ -13,9 +13,9 @@
     .row.justify-content-center.align-items-center
       .col-lg-4
         figure
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 10
-            p Figurín
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 10
+          span Figurín
         img(src='@/assets/curso/tema3/img09.svg', alt='En la imagen se presenta el bosquejo dibujado de dos cuerpos humanos desnudos, uno mirando hacia adelante, y la otra mirando hacia atrás')
         figcaption Nota. Tomada de Pinterest (2021).
 
@@ -69,16 +69,16 @@
     .row.mb-5
       .col-lg-4    
         figure
-        .titulo-quinto.color-acento-botones
-          h4 Figura 11
-            p Cuadro metamórfico
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 11
+          span Cuadro metamórfico
         img(src='@/assets/curso/tema2/img10.png', alt='un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.')
         .text-small.py-2 Un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.
       .col-lg-8     
         figure
-        .titulo-quinto.color-acento-botones
-          h4 Figura 12
-            p Prendas por separado     
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 12
+          span Prendas por separado     
         img(src='@/assets/curso/tema2/img11.png', alt='cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.')
         .text-small.py-2 Cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.
 
@@ -89,9 +89,9 @@
       .col-3
       .col-6        
         figure
-        .titulo-quinto.color-acento-botones
-          h4 Figura 13
-            p Ejemplo de un cuadro metamórfico de prendas  
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 13
+          span Ejemplo de un cuadro metamórfico de prendas  
         img(src='@/assets/curso/tema2/img12.png', alt='la imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.')
         .text-small.py-2 La imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.
       .col-3
@@ -101,9 +101,9 @@
     .row.align-items-center.justify-content-center(data-aos="flip-up")
       .col-lg-10     
         figure
-        .titulo-quinto.color-acento-botones 
-          h4 Figura 14. 
-            p Tipología #[em blazer]
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 14. 
+          span Tipología #[em blazer]
         img(src='@/assets/curso/tema2/img13.png', alt='la imagen presenta un cuadro metamórfico de un blazer, donde se elige una opción por cada fila y luego se evidencia el resultado final que es el blazer.')
         p.py-4 La imagen presenta un cuadro metamórfico de un #[em blazer], donde se elige una opción por cada fila y luego se evidencia el resultado final que es el #[em blazer].
       .col-3

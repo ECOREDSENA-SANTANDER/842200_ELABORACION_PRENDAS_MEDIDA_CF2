@@ -19,9 +19,9 @@
     .row.align-items-center.justify-content-center(data-aos="flip-up")
       .col-lg-5      
         figure
-        .titulo-quinto.color-acento-botones 
-            h4 Figura 14. 
-              p Fibras textiles 
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 14. 
+            span Fibras textiles 
         img(src='@/assets/curso/tema4/img02.svg', alt='La imagen es una fotografía de varios tipos de fibras textiles')
         figcaption Nota. Tomada de Pinterest(2021)
 
@@ -105,9 +105,9 @@
       .col-3
       .col-6       
         figure
-        .titulo-quinto.color-acento-botones
-          h4 Figura 15. 
-            p Hilaturas
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 15. 
+          span Hilaturas
         img(src='@/assets/curso/tema4/img03.png', alt='la imagen es un collage de fotografías de hilaturas de diferentes colores.')
         figcaption Nota. Tomada de Pinterest (2021).
       .col-3
@@ -334,102 +334,90 @@
       .col-2
       .col-8
         figure
-        .titulo-quinto.color-acento-botones 
-            h4 Figura 17. 
-              p Procesos generales para los acabados textiles
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 17. 
+            span Procesos generales para los acabados textiles
         img(src='@/assets/curso/tema4/img14.svg', alt='la imagen define 4 procesos: limpieza, diseño y color, textura y desempeño.')
       .col-2
     br
-    .row.mb-4
-      .col-1
-      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        figure.w-75
-          img(src='@/assets/curso/tema4/img15.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        .div
-          h3 Limpieza
-          ul.lista-ul--color
-            li 
-              i.far.fa-dot-circle    
-              | Desgomado de la seda (ejemplo textil).
-            li 
-              i.far.fa-dot-circle    
-              | Descrudado del algodón (dependerá del acabado final).
-            li 
-              i.far.fa-dot-circle    
-              | Lavado de la lana (proceso originado desde la obtención de la fibra).
-      .col-1
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Limpieza")
+        .col-md-12.mb-4.mb-md-0
+          .row.mb-4
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              figure.w-75
+                img(src='@/assets/curso/tema4/img15.svg', alt='Texto que describa la imagen')
+            
+            p Proceso por el cual se desprenden sustancias adheridas al textil, para darle  mejor apariencia.
 
-    .row.mb-4
-      .col-1
-      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        figure.w-75
-          img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        .div
-          h3 Diseño y color
-          p Referente al uso de tintes en los textiles y que permean las fibras de la tela o hilo como teñido de fibras, hilos, o directamente sobre el textil o en piezas ya hechas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
-    .col-1
+      .row(titulo="Diseño y color")
+        .col-md-12.mb-4.mb-md-0
+          .row.mb-4
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              figure.w-75
+                img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
+            .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              .div
+                h3 Diseño y color
+                p Proceso que se refiere al uso de tintes que permean las fibras y los hilos, se puede realizar directamente sobre el textil o en prendas ya construidas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
+          .col-1
 
-    .row.justify-content-center.align-items-center
-      .col-lg-8
-        figure.w-75
-        .titulo-quinto.color-acento-botones 
-          h4 Figura 18. 
-            p Métodos de diseño y color en textiles
-        img(src='@/assets/curso/tema4/img17.svg', alt='diferentes fotografías de formas de teñido en fibras, hilos, materia prima o piezas.')
-  
-    .py-3
-    .row.justify-content-center.align-items-center
-      .col-lg-8
-        figure.w-75
-        .titulo-quinto.color-acento-botones 
-          h4 Figura 19. 
-            p Estampados en los textiles
-        img(src='@/assets/curso/tema4/img18.svg', alt='en la imagen se enuncian las diferentes técnicas de estampado: rotativa, serigrafía, sublimación, transfer y digital.')
-    
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              figure.w-75
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 18. 
+                span Métodos de diseño y color en textiles
+              img(src='@/assets/curso/tema4/img17.svg', alt='diferentes fotografías de formas de teñido en fibras, hilos, materia prima o piezas.')
+        
+          .py-3
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              figure.w-75
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 19. 
+                span Estampados en los textiles
+              img(src='@/assets/curso/tema4/img18.svg', alt='en la imagen se enuncian las diferentes técnicas de estampado: rotativa, serigrafía, sublimación, transfer y digital.')
+        
+      .row(titulo="Textura")
+        .col-md-12.mb-4.mb-md-0
+          .row.mb-4
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              figure.w-75
+                img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
+            .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              .div
+                h3 Textura
+                p Proceso que se realiza para generar acabados y que al tacto juegue con las sensaciones (terciopelo, afelpados, glaseado, satinados, mercerizados, reducción de brillos, grabados, gofrados moiré, entre otros).
+          .col-1
 
-    .row.mb-4
-      .col-1
-      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        figure.w-75
-          img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        .div
-          h3 Textura
-          p Para generar acabados que al tacto juegue con las sensaciones (terciopelo, afelpados, glaseado, satinados, mercerizados, reducción de brillos, grabados, gofrados moiré, entre otros).
-    .col-1
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-8.col-10
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 20. 
+                span Textura en los textiles
+              img(src='@/assets/curso/tema4/img20.svg', alt='se presentan, a través de pequeñas fotografías, 5 tipos de textura: calandrar satinado, glaseado, afelpado, sanforizado  y reducción de brillo.')
+            .col-2
+      .row(titulo="Desempeño")
+        .col-md-12.mb-4.mb-md-0    
+          .row.mb-4
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              figure.w-75
+                img(src='@/assets/curso/tema4/img21.svg', alt='Texto que describa la imagen')
+            .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+              .div
+                h3 Desempeño
+                p como su nombre lo indica, es un proceso para mejorar el desempeño y la utilidad del texto y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
+          .col-1
 
-    .row.mb-4
-      .col-2
-      .col-8
-        figure
-        .titulo-quinto.color-acento-botones 
-            h4 Figura 20. 
-              p Textura en los textiles
-        img(src='@/assets/curso/tema4/img20.svg', alt='se presentan, a través de pequeñas fotografías, 5 tipos de textura: calandrar satinado, glaseado, afelpado, sanforizado  y reducción de brillo.')
-      .col-2
-    
-    .row.mb-4
-      .col-1
-      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        figure.w-75
-          img(src='@/assets/curso/tema4/img21.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
-        .div
-          h3 Desempeño
-          p Utilizado para mejorar el desempeño y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
-    .col-1
-
-    .row.mb-4
-      .col-3
-      .col-6
-        figure
-        .titulo-quinto.color-acento-botones 
-            h4 Figura 21. 
-              p Proceso general de textiles
-        img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
-      .col-3
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-8.col-10
+              figure
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 21. 
+                span Proceso general de textiles
+              img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
+            .col-3
 
 
 
