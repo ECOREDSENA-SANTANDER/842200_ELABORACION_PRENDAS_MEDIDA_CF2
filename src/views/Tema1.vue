@@ -22,7 +22,32 @@
           p En relación con la cultura, esta se puede entender como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
       .col-lg-6.fondo-a.p-4
-        SlyderCTitulo(:datos="datosSlyder")
+        SlyderE(indicadores="derecha")
+          .row
+            .col-md-12
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 1. 
+                span Moda y arte, inspirada en Mondrian
+              figure
+                img(src='@/assets/curso/tema1/img01.png', alt='la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.')
+                figcaption Nota. Tomada de PlayBoya (2020)
+          .row
+            .col-md-10
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 2. 
+                span La moda y la decoración de espacios
+              figure
+                img(src='@/assets/curso/tema1/img02.png', alt='en la imagen se compara un espacio de una casa: sofá, cortina de flores, y ventanal; con una mujer modelando un vestido de flores. ')
+                figcaption Nota. Tomada de Mujer (2020)
+          .row
+            .col-md-10
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 3. 
+                span Moda y gastronomía
+              figure
+                img(src='@/assets/curso/tema1/img03.png', alt='la imagen presenta una tabla de colores PANTONE con setas del mismo tono de color sobre cada color.')
+                figcaption Nota. Tomada de Frogx3 (2021)
+        
     
     
     Separador
@@ -37,9 +62,9 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 4. 
             span Sistema de la moda en el mundo
-          img(src='@/assets/curso/tema1/img04.svg', alt='Texto alternativo figura 4: el esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
+          img(src='@/assets/curso/tema1/img04.svg', alt='El esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
           figcaption Nota. Tomada de Inexmoda (2021).
-      .col-3
+      .col-lg-3.col-12
         p El esquema es una pirámide que describe en niveles lo siguiente: 
         p comenzando desde la base
         p #[b 1. Masivo:] pronta moda, toma de las marcas de lujo el #[em merchandising, Massterprestige] (colaboraciones).
@@ -294,7 +319,7 @@
          TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Consumidor tradicional" :icono="require('@/assets/curso/tema1/img27.svg')")
             .row
-              .col-7.ps-4.pt-3
+              .col-lg-7.ps-4.pt-3.col-12
                 p Es un consumidor que participa en un ambiente social exigente en el que busca reconocimiento, aceptación y afirmación de los demás. Invierte por lo general grandes cantidades de dinero, tiempo y energía en sobresalir y destacarse, a partir de las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -309,13 +334,13 @@
                       | Rígido y formal no es fácil que acepte tendencias de moda actuales, sin embargo, está pendiente en lo que su estilo en novedades se refiere.
                     
               .col-1
-              .col-3
+              .col-lg-3.col-10
                 figure
                   img(src='@/assets/curso/tema1/img032.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor neotradicional" :icono="require('@/assets/curso/tema1/img28.svg')")
             .row
-              .col-6.ps-4.pt-3
+              .col-lg-6.ps-4.pt-3.col-12
                 p Está definido como el nuevo tradicional en cuanto a que acepta algunos cambios en su vestuario, sin embargo, conserva la etiqueta y las normas de acuerdo con los protocolos según los eventos, es formal y tradicionalista. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -329,12 +354,12 @@
                       i.far.fa-dot-circle
                       | Aprecia los referentes actuales y los integra en su vestuario sutilmente.
                               
-              .col-6
+              .col-lg-6.col-12
                 figure
                   img(src='@/assets/curso/tema1/img033.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
           .py-4.py-md-5(titulo="Consumidor contemporáneo" :icono="require('@/assets/curso/tema1/img29.svg')")
             .row
-              .col-7.ps-4.pt-3
+              .col-lg-7.ps-4.pt-3.col-12
                 p Surge de avances y cambios a nivel social y cultural, dinámicos, apasionados por conocer cosas nuevas, viajar y estar a la vanguardia de todos los sucesos a nivel nacional y mundial, se considera un explorador y tiene gran tolerancia por diferentes formas de pensamientos y creencias. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -349,13 +374,13 @@
                       | Dinámico, intenso y con múltiples actividades profesionales y culturales.    
              
               .col-1
-              .col-3
+              .col-lg-3.col-10
                 figure( style='object-fit: none')
                   img(src='@/assets/curso/tema1/img034.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor vanguardista" :icono="require('@/assets/curso/tema1/img30.svg')")
             .row
-              .col-7.ps-4.pt-3
+              .col-lg-7.ps-4.pt-3.col-12
                 p Es un destacado grupo social, inconformista, vanguardista y amante de la originalidad y autenticidad del ser. Genera cambios y origina nuevos conceptos, innovador, rompe esquemas y paradigmas en su entorno influyendo en la creación de nuevas tendencias. Por lo general tiene gran capacidad adquisitiva. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -369,13 +394,13 @@
                       i.far.fa-dot-circle
                       | Investigador y con gran pensamiento crítico.             
               .col-1
-              .col-3
+              .col-lg-3.col-10
                 figure
                   img(src='@/assets/curso/tema1/img035.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor exhibicionista" :icono="require('@/assets/curso/tema1/img31.svg')")
             .row
-              .col-7.ps-4.pt-3
+              .col-lg-7.ps-4.pt-3.col-12
                 p Una persona con gran necesidad de destacarse y llamar la atención para verse distinto a los demás, con gran sensibilidad hacia nuevos conceptos de moda, posee un estilo ecléctico, es decir no se identifica con uno en particular. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -389,7 +414,7 @@
                       i.far.fa-dot-circle
                       | En búsqueda de proyectar una imagen nueva siempre, para no parecerse a los demás.            
               .col-1
-              .col-3
+              .col-3.col-10
                 figure
                   img(src='@/assets/curso/tema1/img036.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
@@ -461,7 +486,7 @@ export default {
         titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
         alt:
-          ' la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.',
+          'la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.',
         leyendaImagen: 'Nota. Tomada de PlayBoya (2020)',
       },
       {

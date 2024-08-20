@@ -17,10 +17,10 @@
     p.mb-4 Es la materia sólida unitaria de cualquier estructura textil. La fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas; se considera filamento cuando la longitud de este es superior a su diámetro.
     
     .row.align-items-center.justify-content-center(data-aos="flip-up")
-      .col-lg-5      
+      .col-lg-5.col-sm-8      
         figure
         .titulo-sexto.color-acento-contenido
-            h5 Figura 14. 
+            h5 Figura 15. 
             span Fibras textiles 
         img(src='@/assets/curso/tema4/img02.svg', alt='La imagen es una fotografía de varios tipos de fibras textiles')
         figcaption Nota. Tomada de Pinterest(2021)
@@ -103,10 +103,10 @@
 
     .row.mb-5
       .col-3
-      .col-6       
+      .col-lg-6.col-9       
         figure
         .titulo-sexto.color-acento-contenido
-          h5 Figura 15. 
+          h5 Figura 16. 
           span Hilaturas
         img(src='@/assets/curso/tema4/img03.png', alt='la imagen es un collage de fotografías de hilaturas de diferentes colores.')
         figcaption Nota. Tomada de Pinterest (2021).
@@ -186,7 +186,7 @@
         tr.sin-fondo.border
           th.fondo-color-acento-botones.border.text-center 
             h4 Telas no tejidas
-          td.sin-fondo.border(colspan=4) Interlones - Guatas - Entretelas 
+          td.sin-fondo.border(colspan=4) Interlones - Guatas - Entretelas.
           
     p.mb-4 Las caracterizaciones de los textiles se organizan en función de su comportamiento, están relacionadas con el peso del material desde su estructura, fluidez, expansión y comprensión; a continuación, se relacionan los aspectos más relevantes de cada una.
     
@@ -243,13 +243,13 @@
               ul.lista-ul--color.mb-4
                 li 
                   i.far.fa-dot-circle    
-                  p <b>Tejidas: </b>pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas de tejido plano. Pueden cortarse al sesgo para tener elasticidad con ángulo de 45°.
+                  | <b>Tejidas: </b>pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas de tejido plano. Pueden cortarse al sesgo para tener elasticidad con ángulo de 45°.
                 li 
                   i.far.fa-dot-circle    
-                  p <b>No tejidas: </b>por lo general son hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras, estas son distribuidas al azar y juntadas por acción química o térmica dado que no tienen una dirección de hilo, no se desmecha y pueden ser cortadas en cualquier dirección o ángulo.
+                  | <b>No tejidas: </b>por lo general son hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras, estas son distribuidas al azar y juntadas por acción química o térmica dado que no tienen una dirección de hilo, no se desmecha y pueden ser cortadas en cualquier dirección o ángulo.
                 li 
                   i.far.fa-dot-circle    
-                  p <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
+                  | <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-5
                     img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')    
@@ -262,23 +262,23 @@
       .col-6.d-flex.align-items-center
         div
           .row.mb-4.pt-4.pb-0(style="border-top: 2px solid #F8F5E5; ")
-            .col-2.d-flex.align-items-center
+            .col-lg-2.d-flex.align-items-center.col-4
               figure
                 img(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
-            .col-10.d-flex.align-items-center
+            .col-lg-10.d-flex.align-items-center.col-12.col-sm-12
               div
                 h4 Aprestos
                 p Es cuando los efectos se consiguen a partir de productos o bases químicas aplicadas al textil, logrando aspectos como rigidez, estabilidad, tactosidad, antifluido, peso del textil.
           .row.pt-4.pb-2(style="border-top: 2px solid #F8F5E5; border-bottom: 2px solid #F8F5E5;")
-            .col-2.d-flex.align-items-center
+            .col-lg-2.d-flex.align-items-center.col-4
               figure
                 img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
-            .col-10.d-flex.align-items-center
+            .col-lg-10.d-flex.align-items-center.col-12
               div
                 h4 Acabados
                 p se logran efectos con la aplicabilidad de procesos físicos, mecánicos, entre ellos calor, presión, humedad, a manera de ejemplo, aquí se encuentran los plisados.
 
-      .col-4.d-flex.align-items-center.justify-content-center
+      .col-lg-4.d-flex.align-items-center.justify-content-center.col-10.col-sm-5
         figure
           img(src='@/assets/curso/tema4/img13.svg', alt='Texto que describa la imagen')
       .col-1
@@ -297,17 +297,17 @@
           th.fondo-color-acento-botones.border.text-center(rowspan=3) 
             h4 Acción que lo origina / modifica Característica
           th.fondo-gris.border.text-center
-            h4 Físico /estético
+            h4 Físico /estético.
           td.border No modifica la estructura interna de la fibra, solo su apariencia.
 
         tr.sin-fondo.border          
           th.sin-fondo.border.text-center
-            h4 Químico / funcional
+            h4 Químico / funcional.
           td.border Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra.
           
         tr.sin-fondo.border          
           th.fondo-gris.border(colspan=2)
-            h4 Químico – físico / estético – funcional
+            h4 Químico – físico / estético – funcional.
         
     .tabla-b.color-acento-contenido.mb-4 
       table.sin-fondo.border        
@@ -315,17 +315,17 @@
           th.fondo-color-acento-botones.border.text-center(rowspan=3) 
             h4 Duración
           th.fondo-gris.border.text-center
-            h4 Temporal
+            h4 Temporal.
           td.border Algunas lavadas.
 
         tr.sin-fondo.border          
           th.sin-fondo.border.text-center
-            h4 Permanente
+            h4 Permanente.
           td.border Acabados físicos, vida útil de la prenda.
           
         tr.sin-fondo.border          
           th.sin-fondo.border.text-center
-            h4 Renovable
+            h4 Renovable.
           td.border Puede renovarse en el hogar o necesita de tintorería.
     .py-3
     p.text-center.mb-4 <b>Dentro de esta clasificación se encuentran cuatro (4) procesos a tener en cuenta y dependiendo del acabado que se quiera lograr:</b>
@@ -344,7 +344,7 @@
       .row(titulo="Limpieza")
         .col-md-12.mb-4.mb-md-0
           .row.mb-4
-            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3.col-sm-2(style="border-top: 2px solid #F8F5E5; ")
               figure.w-75
                 img(src='@/assets/curso/tema4/img15.svg', alt='Texto que describa la imagen')
             
@@ -353,7 +353,7 @@
       .row(titulo="Diseño y color")
         .col-md-12.mb-4.mb-md-0
           .row.mb-4
-            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3.col-sm-2(style="border-top: 2px solid #F8F5E5; ")
               figure.w-75
                 img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
@@ -382,7 +382,7 @@
       .row(titulo="Textura")
         .col-md-12.mb-4.mb-md-0
           .row.mb-4
-            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3.col-sm-2(style="border-top: 2px solid #F8F5E5; ")
               figure.w-75
                 img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
@@ -401,13 +401,13 @@
       .row(titulo="Desempeño")
         .col-md-12.mb-4.mb-md-0    
           .row.mb-4
-            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
+            .col-lg-1.col-4.d-flex.align-items-center.justify-content-center.py-3.col-sm-2(style="border-top: 2px solid #F8F5E5; ")
               figure.w-75
                 img(src='@/assets/curso/tema4/img21.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
               .div
                 h3 Desempeño
-                p como su nombre lo indica, es un proceso para mejorar el desempeño y la utilidad del texto y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
+                p Como su nombre lo indica, es un proceso para mejorar el desempeño y la utilidad del texto y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
           .col-1
 
           .row.justify-content-center.align-items-center.mb-5

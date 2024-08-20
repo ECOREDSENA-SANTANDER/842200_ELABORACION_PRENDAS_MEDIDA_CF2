@@ -142,6 +142,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CF2_842200_DU.zip',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -153,113 +158,7 @@ export default {
       },
     ],
   },
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'María Camila García Santamaría',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Ledy Johana Velásquez Hernández',
-        cargo: 'Experta temática',
-        centro: 'Diseño, Confección y Moda',
-        regional: 'Regional Antioquia',
-      },
-      {
-        nombre: 'Paola Angélica Castro Salazar',
-        cargo: 'Experta temática',
-        centro: 'Diseño, Confección y Moda',
-        regional: 'Regional Antioquia',
-      },
-      {
-        nombre: 'Paula Andrea Taborda Ortiz',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital.',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
-      },
-      {
-        nombre: 'Oscar Ivan Uribe Ortiz',
-        cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
-      },
-      {
-        nombre: [
-          'Wilson Andrés Arenales Caceres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Maria Carolina Tamayo',
-          'Lina Perez',
-          'Adriana Suarez',
-          'Adriana Ariza',
-          'Maria Camila Ovalle',
-        ],
-        cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Edgar Mauricio Cortes García',
-        cargo: 'Desarrollo front-end',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Validación de diseño y contenido',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
-      },
-    ],
-  },
+
   referencias: [
     {
       referencia:
@@ -369,16 +268,16 @@ export default {
         'vestuario hecho sobre medida creado por los diseñadores líderes que, usualmente forma parte de una colección para una estación específica, la cual es determinante en la moda en general. La alta costura fue fundada por Charles Frederick Worth en París en la segunda mitad del siglo XIX; a principios del siglo XX fue dominada por Paul Poiret y después por Coco Chanel durante y después de la primera guerra mundial. ',
     },
     {
-      termino: 'Atelier',
+      termino: '<i>Atelier</i>',
       significado: 'taller de creación de moda. ',
     },
     {
-      termino: 'Bidimensional ',
+      termino: 'Bidimensional',
       significado:
         'que se representa según su altura y su anchura, y no su profundidad. ',
     },
     {
-      termino: 'Coolhunter',
+      termino: '<i>Coolhunter</i>',
       significado:
         'persona que se dedica a la recolección de información sobre tendencias de moda. ',
     },
@@ -403,135 +302,260 @@ export default {
         'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
     {
-      termino: 'Outfit',
+      termino: '<i>Outfit</i>',
       significado:
         'conjunto de prendas combinadas de una manera determinada. Designa un atuendo concreto, pero su uso se ha popularizado hasta el punto de emplearse como sinónimo del término genérico conjunto. ',
     },
     {
-      termino: 'Oversize',
+      termino: '<i>Oversize</i>',
       significado:
         'dicho de una prenda de vestir, la que es de mayor talla que la necesaria. También se utiliza para definir el estilo derivado de vestir este tipo de prendas. ',
     },
     {
-      termino: 'Street style ',
+      termino: '<i>Street style</i>',
       significado:
         'estilo de ropa que se lleva para ir por la calle. También se llaman así las fotos espontáneas que muestran el estilo que llevan determinadas personas por la calle, y los blogs en los que se publican estas fotos. ',
     },
     {
-      termino: 'Style ',
+      termino: '<i>Style</i>',
       significado: 'estilo de una prenda; manera o modo de vestir. ',
     },
     {
-      termino: 'Tail hem (corte asimétrico) ',
+      termino: '<i>Tail hem</i> (corte asimétrico) ',
       significado:
         'estructura de las prendas, más cortas por delante que por detrás, con la que se consigue el llamado “efecto cola” en faldas y vestidos. ',
     },
     {
       termino: 'Tipología',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas ',
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
     },
     {
-      termino: 'T-shirt',
+      termino: '<i>T-shirt</i>',
       significado: 'camiseta.',
     },
     {
-      termino: 'Total look (coordinado)',
+      termino: 'Total <i>look</i> (coordinado)',
       significado:
         'atuendo conjuntado con el mismo estilo, el mismo color o incluso la misma marca. La coordinación puede llegar a incluir los zapatos, los adornos y el bolso. ',
     },
     {
-      termino: 'Trendsetter',
+      termino: '<i>Trendsetter</i>',
       significado:
         'persona que pone de moda una manera de vestir o una prenda. ',
     },
     {
-      termino: 'Trendy',
+      termino: '<i>Trendy</i>',
       significado:
         'dicho de una persona, de un estilo o una prenda de vestir: a la última, moderna. ',
     },
     {
-      termino: 'Vintage',
+      termino: '<i>Vintage</i>',
       significado:
         'tendencia estética que consiste en rescatar prendas u objetos diseñados o fabricados en las épocas en las que estaban de moda. Suele aplicarse también a las propias prendas y objetos de grandes diseñadores que se conservan en buen estado, por lo que siguen teniendo un alto valor económico. ',
     },
   ],
   complementario: [
     {
-      texto: 'SENA. (2020). Fundamentación de moda.',
+      tema: '',
+      referencia: 'SENA. (2020). Fundamentación de moda.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo1_Fundamentacion_Moda.pdf',
+      link: '/downloads/CF2_Anexo1_Fundamentacion_Moda.pdf',
     },
     {
-      texto:
+      referencia:
         'SENA. (2020). Universos del vestuario. Gamas de mercado. Ocasiones de uso.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo2_Universos_Vestuarios_Ocasiones_Uso.pdf',
+      link: '/downloads/CF2_Anexo2_Universos_Vestuarios_Ocasiones_Uso.pdf',
     },
     {
-      texto: 'SENA. (2020). Perfiles del consumidor.',
+      referencia: 'SENA. (2020). Perfiles del consumidor.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo3_Perfil_Consumidor.pdf',
+      link: '/downloads/CF2_Anexo3_Perfil_Consumidor.pdf',
     },
     {
-      texto: 'SENA. (2020). Moodboard. Tableros creativos.',
+      referencia: 'SENA. (2020). Moodboard. Tableros creativos.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf',
+      link: '/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf',
     },
     {
-      texto: 'SENA. (2020). Tendencias de moda.',
+      referencia: 'SENA. (2020). Tendencias de moda.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo5_Tendencias_Moda.pdf',
+      link: '/downloads/CF2_Anexo5_Tendencias_Moda.pdf',
     },
     {
-      texto: 'SENA. (2020). Identificación de fibras.',
+      referencia: 'SENA. (2020). Identificación de fibras.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo6_IdentificacionFibras.pdf',
+      link: '/downloads/CF2_Anexo6_IdentificacionFibras.pdf',
     },
     {
-      texto: 'SENA. (2020). Fibras textiles.',
+      referencia: 'SENA. (2020). Fibras textiles.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo7_Clasificacion_Fibras_Textiles.pdf',
+      link: '/downloads/CF2_Anexo7_Clasificacion_Fibras_Textiles.pdf',
     },
     {
-      texto: 'SENA. (2020). Los textiles.',
+      referencia: 'SENA. (2020). Los textiles.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo8_Los_Tejidos.pdf',
+      link: '/downloads/CF2_Anexo8_Los_Tejidos.pdf',
     },
     {
-      texto: 'SENA. (2020). Caracterización de los textiles.',
+      referencia: 'SENA. (2020). Caracterización de los textiles.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo9_Caracterizacion_Textiles.pdf',
+      link: '/downloads/CF2_Anexo9_Caracterizacion_Textiles.pdf',
     },
     {
-      texto: 'SENA. (2020). Los acabados y procesos textiles.',
+      referencia: 'SENA. (2020). Los acabados y procesos textiles.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo10_Acabado_Procesos_Textiles.pdf',
+      link: '/downloads/CF2_Anexo10_Acabado_Procesos_Textiles.pdf',
     },
     {
-      texto: 'SENA. (2020). Categorías de prendas.',
+      referencia: 'SENA. (2020). Categorías de prendas.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo11_Categorias_Prendas.pdf',
+      link: '/downloads/CF2_Anexo11_Categorias_Prendas.pdf',
     },
     {
-      texto:
+      referencia:
         'Simmel, G. (1904). Fashion. The American Journal of Sociology, 65(6), 541-558.',
       tipo: 'Artículo de lectura',
       link:
         'https://sites.middlebury.edu/individualandthesociety/files/2010/09/Simmel.fashion.pdf ',
     },
     {
-      texto:
+      referencia:
         'Dearing, J. W. (2009). Applying Diffusion of Innovation Theory to Intervention Development. Research on Social Work Practice, 19(5), 503–518. ',
       tipo: 'Artículo de lectura',
       link: 'https://doi.org/10.1177/1049731509335569 ',
     },
     {
-      texto:
+      referencia:
         'King, W. (1965). Fashion Adoption: a Rebuttal to the Trickle Down Theory. Appleton-Century-Crofts.',
       tipo: 'Artículo de lectura',
       link:
         'https://www.econbiz.de/Record/fashion-adoption-a-rebuttal-to-the-trickle-down-theory-king-charles/10002208542 ',
     },
   ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Ledy Johana Velásquez Hernández',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Metodológico y Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología',
+        },
+
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de Estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Jiménez Suescun',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Julián Fernando Vanegas Vera',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Leonardo Castellanos Rodríguez',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
+  },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }
