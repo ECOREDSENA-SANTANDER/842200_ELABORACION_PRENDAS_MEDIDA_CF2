@@ -233,9 +233,10 @@ export default {
         'Salinas, R. (1994). Color harmony 2. La armonía en el color, nuevas tendencias, guía para la combinación creativa de colores. Editorial La Armonía del Color.',
     },
     {
-      referencia: 'Sayonara. (2021). Movimiento slow moda. ',
+      referencia:
+        'Almazán, E. (2021, mayo 5). Qué es el movimiento slow fashion y por qué deberías sumarte a su filosofía ¡ya! Glamour.',
       link:
-        'https://sayonaravintage.com/2015/01/movimiento-slow-moda-sostenible-comercio-justo/',
+        'https://www.glamour.mx/moda/tendencias/articulos/slow-fashion-que-es-este-movimiento-de-moda-y-por-que-deberias-sumarte-a-su-filosofia/17039',
     },
     {
       referencia: 'SENA. (2020). Cliente. [Video]. YouTube. ',

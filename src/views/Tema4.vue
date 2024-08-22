@@ -411,12 +411,12 @@
           .col-1
 
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-8.col-10
+            .col-lg-7.col-10
               figure
               .titulo-sexto.color-acento-contenido
                 h5 Figura 21. 
                 span Proceso general de textiles
-              img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/img22.svg', alt=' la figura presenta un diagramade flujo que describe las fibras y las telas:bras-hilos-tejidos Telas-acabados-confección')
             .col-3
 
 

@@ -57,20 +57,14 @@
     p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede observar en el siguiente esquema:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-10
         figure
           .titulo-sexto.color-acento-contenido
             h5 Figura 4. 
             span Sistema de la moda en el mundo
           img(src='@/assets/curso/tema1/img04.svg', alt='El esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
           figcaption Nota. Tomada de Inexmoda (2021).
-      .col-lg-3.col-12
-        p El esquema es una pirámide que describe en niveles lo siguiente: 
-        p comenzando desde la base
-        p #[b 1. Masivo:] pronta moda, toma de las marcas de lujo el #[em merchandising, Massterprestige] (colaboraciones).
-        p #[b 2. Mercado medio:] marcas diferenciadas, aspiran ser difusión
-        p #[b 3. Mercado alto:] Listo para usar, nuevas marcas de las casas de lujo.
-        p #[b Lujo o exclusivo:] alta costura, diseñadores
+ 
 
     .p-4
     p A partir de la anterior imagen se puede constatar lo siguiente:
