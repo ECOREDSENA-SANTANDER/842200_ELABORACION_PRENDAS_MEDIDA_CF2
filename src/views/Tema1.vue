@@ -62,7 +62,7 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 4. 
             span Sistema de la moda en el mundo
-          img(src='@/assets/curso/tema1/img04.svg', alt='El esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
+          img(src='@/assets/curso/tema1/figura4.svg', alt='El esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
           figcaption Nota. Tomada de Inexmoda (2021).
  
 

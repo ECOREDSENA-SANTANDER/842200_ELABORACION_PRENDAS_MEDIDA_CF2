@@ -10,7 +10,7 @@
     
     figure.mb-5
       .video
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/zqxRNVjvi8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/cjhRls-yhvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
 
     .row.fondo-c.mb-5.justify-content-center
       .col-md-1

@@ -514,6 +514,11 @@ export default {
           cargo: 'Animadora y Productora Multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
+        {
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrollador <em>Fullstack</em> Junior',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
     {
@@ -525,7 +530,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Diana Lizeth Lozada Díaz',
           cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

@@ -10,7 +10,7 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          .h4 ACTIVIDAD DIDÁCTICA RELACIONAR TÉRMINOS
+          .h4 Actividad didáctica: relacionar términos.
         p.mb-4 ¿Qué tanto aprendiste sobre el modisto, la moda y el cliente? 
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
