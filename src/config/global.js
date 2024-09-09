@@ -358,81 +358,79 @@ export default {
   ],
   complementario: [
     {
-      tema: '',
+      tema: 'Fundamentos de la moda',
       referencia: 'SENA. (2020). Fundamentación de moda.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo1_Fundamentacion_Moda.pdf',
     },
     {
+      tema: 'Universos de vestuario',
       referencia:
         'SENA. (2020). Universos del vestuario. Gamas de mercado. Ocasiones de uso.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo2_Universos_Vestuarios_Ocasiones_Uso.pdf',
     },
     {
+      tema: 'Perfiles del consumidor',
       referencia: 'SENA. (2020). Perfiles del consumidor.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo3_Perfil_Consumidor.pdf',
     },
     {
-      referencia: 'SENA. (2020). Moodboard. Tableros creativos.',
+      tema: '<i>Moodboard</i>',
+      referencia: 'SENA. (2020). <i>Moodboard</i>. Tableros creativos.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf',
     },
     {
+      tema: 'Tendencias de moda ',
       referencia: 'SENA. (2020). Tendencias de moda.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo5_Tendencias_Moda.pdf',
     },
     {
+      tema: 'Identificación de fibras textiles ',
       referencia: 'SENA. (2020). Identificación de fibras.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo6_IdentificacionFibras.pdf',
     },
     {
+      tema: 'Clasificación de fibras textiles ',
       referencia: 'SENA. (2020). Fibras textiles.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo7_Clasificacion_Fibras_Textiles.pdf',
     },
     {
+      tema: 'Tejidos ',
       referencia: 'SENA. (2020). Los textiles.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo8_Los_Tejidos.pdf',
     },
     {
+      tema: 'Caracterización de los textiles ',
       referencia: 'SENA. (2020). Caracterización de los textiles.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo9_Caracterizacion_Textiles.pdf',
     },
     {
+      tema: 'Acabado y procesos ',
       referencia: 'SENA. (2020). Los acabados y procesos textiles.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo10_Acabado_Procesos_Textiles.pdf',
     },
     {
+      tema: 'Categoría de prendas ',
       referencia: 'SENA. (2020). Categorías de prendas.',
       tipo: 'PDF con presentación.',
       link: '/downloads/CF2_Anexo11_Categorias_Prendas.pdf',
     },
     {
+      tema: '<i>Fashion</i>',
       referencia:
-        'Simmel, G. (1904). Fashion. The American Journal of Sociology, 65(6), 541-558.',
+        'Simmel, G. (1904). <i>Fashion. The American Journal of Sociology,</i> 65(6), 541-558.',
       tipo: 'Artículo de lectura',
       link:
         'https://sites.middlebury.edu/individualandthesociety/files/2010/09/Simmel.fashion.pdf ',
-    },
-    {
-      referencia:
-        'Dearing, J. W. (2009). Applying Diffusion of Innovation Theory to Intervention Development. Research on Social Work Practice, 19(5), 503–518. ',
-      tipo: 'Artículo de lectura',
-      link: 'https://doi.org/10.1177/1049731509335569 ',
-    },
-    {
-      referencia:
-        'King, W. (1965). Fashion Adoption: a Rebuttal to the Trickle Down Theory. Appleton-Century-Crofts.',
-      tipo: 'Artículo de lectura',
-      link:
-        'https://www.econbiz.de/Record/fashion-adoption-a-rebuttal-to-the-trickle-down-theory-king-charles/10002208542 ',
     },
   ],
   creditos: [
