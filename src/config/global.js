@@ -240,15 +240,15 @@ export default {
     },
     {
       referencia: 'SENA. (2020). Cliente. [Video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=4WIq433jNMA',
+      link: 'https://www.youtube.com/watch?v=vuM1x5v4dlI',
     },
     {
       referencia: 'SENA. (2020). Servicio al cliente. [Video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=dB6FOVF-wWs',
+      link: 'https://www.youtube.com/watch?v=WBKXpXGjiHk',
     },
     {
       referencia: 'SENA. (2020). Tipos de clientes. [Video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=FxVNkf957tw&t=26s',
+      link: 'https://www.youtube.com/watch?v=1dIqszM7mZA',
     },
     {
       referencia: 'SENA. (2021). Los acabados textiles. SENA.',

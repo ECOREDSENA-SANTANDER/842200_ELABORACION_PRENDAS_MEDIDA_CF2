@@ -428,7 +428,7 @@
                     p.text-small #[b Enlace web.  Video – Cliente]
                     .text-small Conoce la definición del cliente y su importancia en un negocio.
                   .col-sm-auto
-                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=4WIq433jNMA')" target="_blank")
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=vuM1x5v4dlI')" target="_blank")
                       span Ver video
                       i.fas.fa-video
   
@@ -443,7 +443,7 @@
                     p.text-small #[b Enlace web.  Video – Tipos de clientes]
                     .text-small Conoce los tipos de clientes basados en su comportamiento al momento de adquirir un producto.
                   .col-sm-auto
-                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=FxVNkf957tw&t=26s')" target="_blank")
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=1dIqszM7mZA')" target="_blank")
                       span Ver video
                       i.fas.fa-video
 
@@ -458,7 +458,7 @@
                     p.text-small #[b Enlace web.  Video – Servicio al cliente]
                     .text-small Conoce el comportamiento de los clientes que adquieren un producto o servicio de manera frecuente u ocasional.
                   .col-sm-auto
-                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=dB6FOVF-wWs')" target="_blank")
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=WBKXpXGjiHk')" target="_blank")
                       span Ver video
                       i.fas.fa-video
     
