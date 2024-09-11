@@ -8,7 +8,7 @@
         span 3
       h1 Tipologías de prendas   
 
-    p.mb-4 Una tipología es el estudio de los tipos o modelos que se usan para clasificar diversos elementos; en lo referente a la moda, las tipologías de prendas permitirán basarse en la división del cuerpo para prendas inferiores y prendas superiores tal como se observa en la siguiente imagen.  
+    p.mb-4 Una tipología es el estudio de los tipos o modelos que se usan para clasificar diversos elementos; en lo referente a la moda, las tipologías de prendas permitirán basarse en la división del cuerpo para prendas inferiores y prendas superiores tal como se presenta en la siguiente imagen.  
     
     .row.justify-content-center.align-items-center
       .col-lg-4.col-sm-8

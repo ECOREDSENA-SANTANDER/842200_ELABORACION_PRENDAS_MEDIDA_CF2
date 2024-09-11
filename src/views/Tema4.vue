@@ -29,7 +29,7 @@
     #t_4_2.titulo-segundo
       h2 4.2 Clasificación de las fibras
 
-    p.mb-4 Las fibras se clasifican, según su origen, en dos grandes grupos, las naturales y químicas y estas a su vez se subdividen en otros; en la siguiente tabla se observa esta clasificación.
+    p.mb-4 Las fibras se clasifican, según su origen, en dos grandes grupos, las naturales y químicas y estas a su vez se subdividen en otros; en la siguiente tabla se presenta esta clasificación.
     
     .titulo-quinto.color-acento-botones 
         h4 Tabla 2. 
@@ -199,28 +199,28 @@
               SlyderA(tipo="a")
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/1.png', alt='La imagen presenta varias fotografías de diferentes textiles planos con estructura: paños, tweed, jacquard y pana')
                 
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/2.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/2.png', alt='La figura presenta fotografías de diferentes tipos de tela: encaje, género, velvet/terciopelo, lamé, crepe texturizado y genero de punto.')
         
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/3.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/3.png', alt='La figura presenta fotografías de diferentes tipos de telas que tienen la característica de expansión: acolchado, redecillas, tarlatana, de piel o peluche, tules, organza, plisados, crepre de satén plisados.')
         
        
-          .row(numero="2" titulo="fluidez").justify-content-center.color-acento-contenido
+          .row(numero="2" titulo="Fluidez").justify-content-center.color-acento-contenido
             .col-md-10.mb-4.mb-md-0
               p.text-small Estas telas son suaves y con caída, no son capaces de aguantar su propio peso, la fluidez está directamente relacionada con el tipo de hilo utilizado en su fabricación, son hilos muy torsionados tanto de hebras hiladas como de multifilamento. La caída que da sobre el cuerpo suele ser ligeras y de peso medio.
               SlyderA(tipo="a")
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/4.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/4.png', alt='La figura presenta fotografías de diferentes tipos de tela que tienen la característica de fluidez: chiffon, gasa, chalis, interlock, georgette, crepe, jersey y malla.')
                 
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/5.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/5.png', alt='La figura presenta fotografías de diferentes tipos de tela: encaje, género, velvet/terciopelo, lamé, crepe texturizado y genero de punto.')
           
 
           .row(numero="3" titulo="Expansión").justify-content-center.color-acento-contenido
@@ -228,14 +228,14 @@
               p.text-small En este grupo se incluye el concepto del plisado, este efecto permite expandir la silueta. El concepto de acolchado se incluye en esta categoría, este es un método natural para crear calidez mediante la combinación de capas de tela, se puede aplicar el acolchado medio y acolchado grueso.
               .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/6.png', alt='La figura presenta fotografías de diferentes tipos de telas que tienen la característica de expansión: acolchado, redecillas, tarlatana, de piel o peluche, tules, organza, plisados, crepre de satén plisados.')
       
           .row(numero="4" titulo="Compresión").justify-content-center.color-acento-contenido
             .col-md-10.mb-4.mb-md-0
               p.text-small El objetivo de este grupo es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos. Suelen encontrarse textiles con combinaciones de expandes, licra y acetato.
               .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/7.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema4/7.png', alt='La figura presenta varias fotografías de textiles que tienen la característica de la compresión: punto canalé, pana stretch, power lycra, punto de algodón stretch, doble punto y power net.')
 
           .row(numero="5" titulo="Entretelas").justify-content-center.color-acento-contenido
             .col-md-10.mb-4.mb-md-0
@@ -358,7 +358,6 @@
                 img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
               .div
-                h3 Diseño y color
                 p Proceso que se refiere al uso de tintes que permean las fibras y los hilos, se puede realizar directamente sobre el textil o en prendas ya construidas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
           .col-1
 
@@ -387,7 +386,6 @@
                 img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
               .div
-                h3 Textura
                 p Proceso que se realiza para generar acabados y que al tacto juegue con las sensaciones (terciopelo, afelpados, glaseado, satinados, mercerizados, reducción de brillos, grabados, gofrados moiré, entre otros).
           .col-1
 
@@ -406,7 +404,6 @@
                 img(src='@/assets/curso/tema4/img21.svg', alt='Texto que describa la imagen')
             .col-12.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
               .div
-                h3 Desempeño
                 p Como su nombre lo indica, es un proceso para mejorar el desempeño y la utilidad del texto y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
           .col-1
 

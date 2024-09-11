@@ -24,7 +24,7 @@ export default {
       {
         titulo: 'Esquemas básicos',
         texto:
-          'Son vistos dentro de la clasificación de color de acuerdo con su luz y la perspectiva de la persona que mira el color. La clasificación son: acromáticos, análogos, de choque, complementarios, monocromáticos, neutrales y complementarios divididos, también los esquemas primarios, secundarios y terciarios.',
+          'Son vistos dentro de la clasificación de color de acuerdo con su luz y la perspectiva de la persona que mira el color. La clasificación es: acromáticos, análogos, de choque, complementarios, monocromáticos, neutrales y complementarios divididos, también los esquemas primarios, secundarios y terciarios.',
         imagen: require('@/assets/curso/tema5/img01.svg'),
       },
       {

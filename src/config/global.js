@@ -125,6 +125,7 @@ export default {
         nombreRuta: 'sintesis',
         icono: 'fas fa-sitemap',
         titulo: 'Sintesis',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'glosario',
@@ -293,12 +294,12 @@ export default {
         'actividad creativa orientada a soluciones idóneas a ciertas problemáticas. ',
     },
     {
-      termino: 'Estilo ',
+      termino: 'Estilo',
       significado:
         'manifestación personal de cada individuo según las características propias y su comunicación a través de su actitud y su vestuario. En el estilo se manifiesta la identidad de la persona que está fundamentada en la unidad que se refleja a partir de la relación existente entre el ser y su aspecto exterior o la apariencia.',
     },
     {
-      termino: 'Moda ',
+      termino: 'Moda',
       significado:
         'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
@@ -322,7 +323,7 @@ export default {
       significado: 'estilo de una prenda; manera o modo de vestir. ',
     },
     {
-      termino: '<i>Tail hem</i> (corte asimétrico) ',
+      termino: '<i>Tail hem</i> (corte asimétrico)',
       significado:
         'estructura de las prendas, más cortas por delante que por detrás, con la que se consigue el llamado “efecto cola” en faldas y vestidos. ',
     },
@@ -454,24 +455,24 @@ export default {
       autores: [
         {
           nombre: 'Ledy Johana Velásquez Hernández',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro:
             'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro:
             'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor Metodológico y Pedagógico',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -483,13 +484,13 @@ export default {
 
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de Estilo',
+          cargo: 'Corrector de estilo',
           centro:
             'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Jiménez Suescun',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -528,7 +529,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Diana Lizeth Lozada Díaz',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

@@ -54,7 +54,7 @@
     #t_1_2.titulo-segundo
       h2 1.2 Gamas de mercado en el sistema moda
     
-    p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede observar en el siguiente esquema:
+    p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede presentar en el siguiente esquema:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -98,11 +98,11 @@
           .row.justify-content-center.align-items-center.p-4
             .col.lg-6
               h4.px-4 Marcas diferencias o moda comercial
-              p.p-4 Esta línea se maneja dentro de lo que ahora se llama midi couture, que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean de menor precio. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.
+              p.p-4 Esta línea se maneja dentro de lo que ahora se llama #[em midi couture], que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean de menor precio. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.
             .col-lg-3
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 7.
-                span Diseño según el Midi Couture
+                span Diseño según el #[em Midi Couture]
               img(src='@/assets/curso/tema1/img07.png', alt='Una mujer con un vestido blanco, media pierna y con bordados.')
               figcaption Nota. Tomada de Pinterest (2021)
           
@@ -124,7 +124,7 @@
             .col-lg-3
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 9.
-                span Representación Slow Fashion en producto
+                span Representación #[em Slow Fashion] en producto
               img(src='@/assets/curso/tema1/img09.png', alt='la imagen diagrama el proceso de la moda circular: selecciona, mejora, empaca, entrega y recicla.')
               figcaption Nota. Tomada de Sayonara (2021)
     br
