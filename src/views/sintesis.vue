@@ -2,8 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      img(src='@/assets/curso/tema1/titulo.svg', alt='').mb-5
-      p.mb-3 Todas las personas son consumidoras de prendas de vestir, y dependiendo de sus necesidades y requerimientos escogen una prenda u otra, en este componente se detallan las características que pueden adquirir las prendas y diferentes procedimientos para cambiar el aspecto. El siguiente diagrama presenta los conceptos y temas más importantes trabajados dentro del componente.  
+      p.mb-5 A continuación, el diagrama de flujo presenta el contenido de la unidad, describiendo cada tema y sus subtemas.
       .row.justify-content-center
         .col-lg-12.mb-5
           figure

@@ -199,15 +199,15 @@
               SlyderA(tipo="a")
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/1.png', alt='La imagen presenta varias fotografías de diferentes textiles planos con estructura: paños, tweed, jacquard y pana')
+                    img(src='@/assets/curso/tema4/1.png', alt=': La imagen presenta varias fotografías de diferentes textiles planos con estructura: paños, tweed, jacquard y pana')
                 
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/2.png', alt='La figura presenta fotografías de diferentes tipos de tela: encaje, género, velvet/terciopelo, lamé, crepe texturizado y genero de punto.')
+                    img(src='@/assets/curso/tema4/2.png', alt='La imagen presenta fotografías de diferentes tipos de textiles plastificados recubiertos: lino, oxford, faya, shantung, popelina, tafetán, bengalina y satén.')
         
                 .row.justify-content-center.align-items-center.p-4
                   .col.lg-8
-                    img(src='@/assets/curso/tema4/3.png', alt='La figura presenta fotografías de diferentes tipos de telas que tienen la característica de expansión: acolchado, redecillas, tarlatana, de piel o peluche, tules, organza, plisados, crepre de satén plisados.')
+                    img(src='@/assets/curso/tema4/3.png', alt='La imagen presenta un mosaico de fotografías de tejidos de alta densidad, en algunas de las fotos se distinguen gotas de agua sobre el tejido.')
         
        
           .row(numero="2" titulo="Fluidez").justify-content-center.color-acento-contenido
