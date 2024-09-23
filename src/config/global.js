@@ -100,11 +100,6 @@ export default {
             titulo: 'Hilos e hilatura',
             hash: 't_4_3',
           },
-          {
-            numero: '4.4',
-            titulo: 'Tejidos',
-            hash: 't_4_4',
-          },
         ],
       },
       {
@@ -337,7 +332,7 @@ export default {
       significado: 'camiseta.',
     },
     {
-      termino: 'Total <i>look</i> (coordinado)',
+      termino: '<i>Total look</i> (coordinado)',
       significado:
         'atuendo conjuntado con el mismo estilo, el mismo color o incluso la misma marca. La coordinación puede llegar a incluir los zapatos, los adornos y el bolso. ',
     },
@@ -423,7 +418,7 @@ export default {
       tema: 'Categoría de prendas ',
       referencia: 'SENA. (2020). Categorías de prendas.',
       tipo: 'PDF con presentación.',
-      descarga: '/downloads/CF2_Anexo11_Categorias_Prendas.pdf',
+      descarga: 'downloads/CF2_Anexo11_Categorias_Prendas.pdf',
     },
     {
       tema: '<i>Fashion</i>',

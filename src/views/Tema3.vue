@@ -78,7 +78,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 12
           span Prendas por separado     
-        img(src='@/assets/curso/tema2/img11.png', alt='cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.')
+        img(src='@/assets/curso/tema2/img11.png', alt='Cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.')
         
 
     p.mb-4 Una vez establecidos los tres puntos anteriores se organiza la información de las ideas utilizando un esquema tipo tabla para generar varias opciones de cada una de esas partes (estas deben estar en coherencia con lo que se pretende generar y lo que le brinde pertenencia al consumidor al cual va dirigido).
@@ -91,7 +91,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 13
           span Ejemplo de un cuadro metamórfico de prendas  
-        img(src='@/assets/curso/tema2/img12.png', alt='la imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.')
+        img(src='@/assets/curso/tema2/img12.png', alt='La imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.')
       .col-3
     
     p.mb-4 A continuación, se presenta el cuadro metamórfico de una prenda tipo #[em blazer].
@@ -102,7 +102,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 14. 
           span Tipología #[em blazer]
-        img(src='@/assets/curso/tema2/img13.png', alt='la imagen presenta un cuadro metamórfico de un blazer, donde se elige una opción por cada fila y luego se evidencia el resultado final que es el blazer.')
+        img(src='@/assets/curso/tema2/img13.png', alt='La imagen presenta un cuadro metamórfico de un blazer, donde se elige una opción por cada fila y luego se evidencia el resultado final que es el blazer.')
       .col-3
 
 </template>

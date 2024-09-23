@@ -101,19 +101,20 @@
 
     p.mb-4 Se denomina hilo al conjunto de fibras textiles, continuas o discontinuas, que se tuercen juntas alcanzando una gran longitud y que es directamente empleado para la fabricación de tejidos; a su vez, hilatura es el arte de hilar los filamentos para obtener un conjunto de hebras preparadas para el proceso de construcción de hilos y tejidos. 
 
-    .row.mb-5
+    .row.justify-content-center.mb-5
       .col-3
-      .col-lg-6.col-9       
+      .col-lg-6.col-9.col-sm-10    
         figure
         .titulo-sexto.color-acento-contenido
           h5 Figura 16. 
           span Hilaturas
-        img(src='@/assets/curso/tema4/img03.png', alt='la imagen es un collage de fotografías de hilaturas de diferentes colores.')
+        img(src='@/assets/curso/tema4/img03.png', alt='La imagen es un collage de fotografías de hilaturas de diferentes colores.')
         figcaption Nota. Tomada de Pinterest (2021).
       .col-3
 
-    #t_4_4.titulo-segundo
-      h2 4.4 Tejidos
+    
+    
+    h2 Tejidos
 
     p.mb-4 Es el manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión. Los tejidos tienen una clasificación que se da en dos grupos, tejidos planos y de punto, también se contemplan aquellas no tejidas en las que diversas técnicas a nivel tecnológico permiten su impresión, en el siguiente esquema permite observar esta clasificación:
 
@@ -256,7 +257,7 @@
         
     br
     br
-    p.mb-4 <b style="font-size:20px">Procesos textiles: </b>los procesos textiles hacen referencia al proceso realizado sobre la fibra, el hilo, la tela o la prenda con el fin de modificar alguna de sus características como la apariencia, el tacto y el comportamiento. Siendo así, los procesos tienen gran importancia para los acabados textiles puesto que permiten eliminar o minimizar algunas cualidades que no se desean como parte del producto final ya sea en apariencia, tacto o comportamiento, por lo anterior se tienen en cuenta ciertos tipos de operaciones, entre los cuales están:
+    p.mb-4 <b style="font-size:20px">Procesos textiles: </b>los procesos textiles hacen referencia al proceso realizado sobre la fibra, el hilo, la tela o la prenda con el fin de modificar alguna de sus características como la apariencia, el tacto y el comportamiento. Siendo así, los procesos tienen gran importancia para los acabados textiles, puesto que permiten eliminar o minimizar algunas cualidades que no se desean como parte del producto final ya sea en apariencia, tacto o comportamiento, por lo anterior se tienen en cuenta ciertos tipos de operaciones, entre los cuales están:
     .row.mb-4
       .col-1
       .col-6.d-flex.align-items-center
@@ -337,7 +338,7 @@
         .titulo-sexto.color-acento-contenido
             h5 Figura 17. 
             span Procesos generales para los acabados textiles
-        img(src='@/assets/curso/tema4/img14.svg', alt='la imagen define 4 procesos: limpieza, diseño y color, textura y desempeño.')
+        img(src='@/assets/curso/tema4/img14.svg', alt='La imagen define 4 procesos: limpieza, diseño y color, textura y desempeño.')
       .col-2
     br
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
@@ -367,7 +368,7 @@
               .titulo-sexto.color-acento-contenido
                 h5 Figura 18. 
                 span Métodos de diseño y color en textiles
-              img(src='@/assets/curso/tema4/img17.svg', alt='diferentes fotografías de formas de teñido en fibras, hilos, materia prima o piezas.')
+              img(src='@/assets/curso/tema4/img17.svg', alt='Diferentes fotografías de formas de teñido en fibras, hilos, materia prima o piezas.')
         
           .py-3
           .row.justify-content-center.align-items-center
@@ -376,7 +377,7 @@
               .titulo-sexto.color-acento-contenido
                 h5 Figura 19. 
                 span Estampados en los textiles
-              img(src='@/assets/curso/tema4/img18.svg', alt='en la imagen se enuncian las diferentes técnicas de estampado: rotativa, serigrafía, sublimación, transfer y digital.')
+              img(src='@/assets/curso/tema4/img18.svg', alt='En la imagen se enuncian las diferentes técnicas de estampado: rotativa, serigrafía, sublimación, transfer y digital.')
         
       .row(titulo="Textura")
         .col-md-12.mb-4.mb-md-0
@@ -394,7 +395,7 @@
               .titulo-sexto.color-acento-contenido
                 h5 Figura 20. 
                 span Textura en los textiles
-              img(src='@/assets/curso/tema4/img20.svg', alt='se presentan, a través de pequeñas fotografías, 5 tipos de textura: calandrar satinado, glaseado, afelpado, sanforizado  y reducción de brillo.')
+              img(src='@/assets/curso/tema4/img20.svg', alt='Se presentan, a través de pequeñas fotografías, 5 tipos de textura: calandrar satinado, glaseado, afelpado, sanforizado  y reducción de brillo.')
             .col-2
       .row(titulo="Desempeño")
         .col-md-12.mb-4.mb-md-0    
@@ -413,7 +414,7 @@
               .titulo-sexto.color-acento-contenido
                 h5 Figura 21. 
                 span Proceso general de textiles
-              img(src='@/assets/curso/tema4/img22.svg', alt=' la figura presenta un diagramade flujo que describe las fibras y las telas:bras-hilos-tejidos Telas-acabados-confección')
+              img(src='@/assets/curso/tema4/img22.svg', alt=' La figura presenta un diagramade flujo que describe las fibras y las telas:bras-hilos-tejidos Telas-acabados-confección')
             .col-3
 
 

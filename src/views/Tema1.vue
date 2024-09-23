@@ -29,7 +29,7 @@
                 h5 Figura 1. 
                 span Moda y arte, inspirada en Mondrian
               figure
-                img(src='@/assets/curso/tema1/img01.png', alt='la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.')
+                img(src='@/assets/curso/tema1/img01.png', alt='La imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.')
                 figcaption Nota. Tomada de PlayBoya (2020)
           .row
             .col-md-10
@@ -210,7 +210,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
               h4 #[em Sportswear]
-              p.py-3 Universo dedicado a las prendas que se usan en prácticas deportivas, se populariza en los 70 influenciado por los juegos olímpicos y la creciente práctica de los deportes. Las características de este universo son: tecnológico, multi funcional, confortable y apariencia deportiva.
+              p.py-3 Universo dedicado a las prendas que se usan en prácticas deportivas, se populariza en los 70 influenciado por los juegos olímpicos y la creciente práctica de los deportes. Las características de este universo son: tecnológico, multifuncional, confortable y apariencia deportiva.
             .col-lg-5
               img(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
           
@@ -395,7 +395,7 @@
           .py-4.py-md-5(titulo="Consumidor exhibicionista" :icono="require('@/assets/curso/tema1/img31.svg')")
             .row
               .col-lg-7.ps-4.pt-3.col-12
-                p Una persona con gran necesidad de destacarse y llamar la atención para verse distinto a los demás, con gran sensibilidad hacia nuevos conceptos de moda, posee un estilo ecléctico, es decir no se identifica con uno en particular. Las cuales conservan las siguientes características:
+                p Una persona con gran necesidad de destacarse y llamar la atención para verse distinto a los demás, con gran sensibilidad hacia nuevos conceptos de moda, posee un estilo ecléctico, es decir, no se identifica con uno en particular. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
                     li 
@@ -480,7 +480,7 @@ export default {
         titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
         alt:
-          'la imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.',
+          'La imagen presenta un recuadro con cuadriláteros de diferentes tamaños,  blancos, negros, rojos y amarillos, y una persona usando una chaqueta con el mismo patrón de los cuadriláteros.',
         leyendaImagen: 'Nota. Tomada de PlayBoya (2020)',
       },
       {
