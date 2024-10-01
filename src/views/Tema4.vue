@@ -113,8 +113,8 @@
       .col-3
 
     
-    
-    h2 Tejidos
+    #t_4_4.titulo-segundo
+      h2 4.4 Tejidos
 
     p.mb-4 Es el manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión. Los tejidos tienen una clasificación que se da en dos grupos, tejidos planos y de punto, también se contemplan aquellas no tejidas en las que diversas técnicas a nivel tecnológico permiten su impresión, en el siguiente esquema permite observar esta clasificación:
 

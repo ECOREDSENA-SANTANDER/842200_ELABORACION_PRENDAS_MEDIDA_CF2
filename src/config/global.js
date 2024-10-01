@@ -100,6 +100,11 @@ export default {
             titulo: 'Hilos e hilatura',
             hash: 't_4_3',
           },
+          {
+            numero: '4.4',
+            titulo: 'Tejidos',
+            hash: 't_4_4',
+          },
         ],
       },
       {

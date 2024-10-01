@@ -143,7 +143,7 @@
       .col-1
       .col-10
         figure
-          img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img10.svg', alt='El gráfico presenta los siguientes factores: Factores físicos: se debe considerar aspectos como el clima, edad, estructura, genero y salud.-Factores sociales: se debe considerar aspectos como las clases sociales, la religión y la cultura.-Factores culturales: están enmarcados en un contexto historico, reflejado en la mercadotecnia y la identidad.-Factores psicológicos: relacionanlos estados de ánimo, desordenes psicológicos y autoestima.-Sexualidad: se tiene en cuenta la orientación sexual y la indumentaria desde la simbología')
       .col-1
 
     Separador
