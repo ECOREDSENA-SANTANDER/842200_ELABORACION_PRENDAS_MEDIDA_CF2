@@ -8,7 +8,7 @@
           figure
             img(src="@/assets/curso/tema1/sintesis.svg", alt="El diagrama de flujo presenta el contenido de la unidad, describiendo cada tema y sus subtemas")
         .col-auto
-          a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+          a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

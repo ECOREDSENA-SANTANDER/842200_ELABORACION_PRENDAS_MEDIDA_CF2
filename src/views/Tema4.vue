@@ -251,9 +251,41 @@
                 li 
                   i.far.fa-dot-circle    
                   | <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
-                .row.justify-content-center.align-items-center.p-4
-                  .col.lg-5
-                    img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')    
+            .row.justify-content-center.p-4
+              .col-lg-4.col-sm-12
+                LineaTiempoE.color-pincipal
+                  .row
+                    .col-lg-12.mb-4.mb-lg-0
+                      h4 FABRICACIÓN Y APLICACIÓN
+                      p Las entretelas pueden ser tejidas, no tejidas o de punto. Pueden usarse fusionándose, cosiéndose.
+                  .row
+                    .col-lg-12.mb-4.mb-lg-0
+                      h4 ELÁSTICAS O ESTABLES
+                      p Las entretelas se catalogan bajo estas dos categorías. 
+                      p #[b Las elásticas:] donde se requiere dar forma.
+                      p #[b Las estables:] en sitios de la prenda donde se necesite fijar.   
+              .col-lg-4.col-sm-12
+                LineaTiempoE.color-pincipal
+                  .row
+                    .col-lg-12.mb-4.mb-lg-0
+                      h4 CUIDADO
+                      p Las tela exterior debe tener características similares de la entretela.
+                    .py-3
+                  .row
+                    .col-lg-12.mb-4.mb-lg-0
+                      h4 COLOR
+                      p El color se transparenta a través de algunas telas, se debe seleccionar una entretela compatible con el color de la tela exterior.
+                .py-2  
+              .col-lg-4
+                .row.justify-content-center
+                  .col-lg-8.col-sm-7
+                    h4.text-verde.p-2.text-center ¿Cómo elegir la entretela adecuada?
+                LineaTiempoE.color-pincipal
+                  .row
+                    .col-lg-12.mb-4.mb-lg-0
+                      h4 PESO
+                      p Los pesos de las entretelas varían desde las muy livianas hasta las muy pesadas. Se deben elegir de acuerdo al material a trabajar.
+                 
         
     br
     br

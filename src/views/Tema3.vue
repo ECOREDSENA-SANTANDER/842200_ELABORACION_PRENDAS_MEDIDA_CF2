@@ -44,10 +44,10 @@
               .col 
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small #[b Anexo.] Cuadro metamórfico.
+                    p.text-small #[b Anexo.] Moodboard y cuadro metamórfico
                     .text-small Conocer cómo se logra variedad de diseños rápidamente, facilita la realización de evoluciones y modificaciones de diseño en una colección sin que se pierda la coherencia conceptual.
                   .col-sm-auto
-                    a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf')" target="_blank")
+                    a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/Moodboard y cuadro metamórfico.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
