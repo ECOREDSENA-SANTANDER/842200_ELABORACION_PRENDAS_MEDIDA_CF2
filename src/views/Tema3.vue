@@ -44,7 +44,7 @@
               .col 
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small #[b Anexo.] Moodboard y cuadro metamórfico
+                    p.text-small #[b Anexo.] #[em Moodboard] y cuadro metamórfico
                     .text-small Conocer cómo se logra variedad de diseños rápidamente, facilita la realización de evoluciones y modificaciones de diseño en una colección sin que se pierda la coherencia conceptual.
                   .col-sm-auto
                     a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/Moodboard y cuadro metamórfico.pdf')" target="_blank")
@@ -72,7 +72,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 11
           span Cuadro metamórfico
-        img(src='@/assets/curso/tema2/img10.png', alt='un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.')
+        img(src='@/assets/curso/tema2/img10.png', alt='Un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.')
       .col-lg-8     
         figure
         .titulo-sexto.color-acento-contenido

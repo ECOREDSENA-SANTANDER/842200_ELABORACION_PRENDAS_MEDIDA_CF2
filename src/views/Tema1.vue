@@ -37,7 +37,7 @@
                 h5 Figura 2. 
                 span La moda y la decoración de espacios
               figure
-                img(src='@/assets/curso/tema1/img02.png', alt='en la imagen se compara un espacio de una casa: sofá, cortina de flores, y ventanal; con una mujer modelando un vestido de flores. ')
+                img(src='@/assets/curso/tema1/img02.png', alt='En la imagen se compara un espacio de una casa: sofá, cortina de flores, y ventanal; con una mujer modelando un vestido de flores. ')
                 figcaption Nota. Tomada de Mujer (2020)
           .row
             .col-md-10
@@ -45,7 +45,7 @@
                 h5 Figura 3. 
                 span Moda y gastronomía
               figure
-                img(src='@/assets/curso/tema1/img03.png', alt='la imagen presenta una tabla de colores PANTONE con setas del mismo tono de color sobre cada color.')
+                img(src='@/assets/curso/tema1/img03.png', alt='La imagen presenta una tabla de colores PANTONE con setas del mismo tono de color sobre cada color.')
                 figcaption Nota. Tomada de Frogx3 (2021)
         
     
@@ -125,7 +125,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 9.
                 span Representación #[em Slow Fashion] en producto
-              img(src='@/assets/curso/tema1/img09.png', alt='la imagen diagrama el proceso de la moda circular: selecciona, mejora, empaca, entrega y recicla.')
+              img(src='@/assets/curso/tema1/img09.png', alt='La imagen diagrama el proceso de la moda circular: selecciona, mejora, empaca, entrega y recicla.')
               figcaption Nota. Tomada de Sayonara (2021)
     br
     .row.justify-content-center.align-items-center.mb-5
