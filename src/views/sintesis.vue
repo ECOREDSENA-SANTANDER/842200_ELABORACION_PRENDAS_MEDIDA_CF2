@@ -6,7 +6,7 @@
       .row.justify-content-center
         .col-lg-12.mb-5
           figure
-            img(src="@/assets/curso/tema1/sintesis.svg", alt="El diagrama de flujo presenta el contenido de la unidad, describiendo cada tema y sus subtemas")
+            img(src="@/assets/curso/tema1/sintesis.svg", alt="En el diagrama se presentan los temas principales del componente: fundamentos de la moda, tendencias, tipologías de prendas, textiles y esquemas de color. Adicionalmente, se incluyen los subtemas más importantes y las relaciones entre ellos.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
             .anexo__icono

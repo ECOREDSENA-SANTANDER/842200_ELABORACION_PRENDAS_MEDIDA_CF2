@@ -269,7 +269,7 @@
                   .row
                     .col-lg-12.mb-4.mb-lg-0
                       h4 CUIDADO
-                      p Las tela exterior debe tener características similares de la entretela.
+                      p La tela exterior debe tener características similares de la entretela.
                     .py-3
                   .row
                     .col-lg-12.mb-4.mb-lg-0
