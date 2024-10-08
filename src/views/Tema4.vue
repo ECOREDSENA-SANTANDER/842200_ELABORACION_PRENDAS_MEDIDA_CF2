@@ -253,14 +253,17 @@
                   | <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
             .row.justify-content-center.p-4
               .col-lg-4.col-sm-12
+                .row.justify-content-center
+                  .col-lg-8.col-sm-7
+                    h4.text-verde.p-2.text-center ¿Cómo elegir la entretela adecuada?
                 LineaTiempoE.color-pincipal
                   .row
                     .col-lg-12.mb-4.mb-lg-0
-                      h4 FABRICACIÓN Y APLICACIÓN
+                      h4 Fabricación y aplicación
                       p Las entretelas pueden ser tejidas, no tejidas o de punto. Pueden usarse fusionándose, cosiéndose.
                   .row
                     .col-lg-12.mb-4.mb-lg-0
-                      h4 ELÁSTICAS O ESTABLES
+                      h4 Elásticas o estables
                       p Las entretelas se catalogan bajo estas dos categorías. 
                       p #[b Las elásticas:] donde se requiere dar forma.
                       p #[b Las estables:] en sitios de la prenda donde se necesite fijar.   
@@ -268,18 +271,16 @@
                 LineaTiempoE.color-pincipal
                   .row
                     .col-lg-12.mb-4.mb-lg-0
-                      h4 CUIDADO
+                      h4 Cuidado
                       p La tela exterior debe tener características similares de la entretela.
                     .py-3
                   .row
                     .col-lg-12.mb-4.mb-lg-0
-                      h4 COLOR
+                      h4 Color
                       p El color se transparenta a través de algunas telas, se debe seleccionar una entretela compatible con el color de la tela exterior.
                 .py-2  
               .col-lg-4
-                .row.justify-content-center
-                  .col-lg-8.col-sm-7
-                    h4.text-verde.p-2.text-center ¿Cómo elegir la entretela adecuada?
+                
                 LineaTiempoE.color-pincipal
                   .row
                     .col-lg-12.mb-4.mb-lg-0
